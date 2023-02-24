@@ -65,3 +65,5 @@ group :test do
   gem 'rails-controller-testing'
   gem 'rspec-rails'
 end
+
+gem 'simple_form', github: 'heartcombo/simple_form'
