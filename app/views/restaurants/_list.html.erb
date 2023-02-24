@@ -1,0 +1,18 @@
+  <%= restaurants.each do |f| %>
+    <div>
+      <h3><%= f.name %></h3>
+      <div>
+        <p>
+          <%= f.address %>
+        </p>
+        <p>
+          <%= f.phone_number %>
+
+        </p>
+        <p>
+          <%= f.category %>
+        </p>
+        <%= link_to "details", restaurant_path(f) %>
+      </div>
+    </div>
+  <% end %>
